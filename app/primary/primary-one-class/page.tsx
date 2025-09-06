@@ -6,34 +6,34 @@ import { Button } from "@/components/ui/button"
 import { FileText, BookOpen, Search, Download } from "lucide-react"
 import Link from "next/link"
 
-export default function TopClassPage() {
+export default function PrimaryOneClassPage() {
   const resources = [
     {
       title: "Lesson Notes",
       description: "Comprehensive lesson notes for Baby Class",
       icon: FileText,
-      href: "/nursery/top-class/lesson-notes",
+      href: "/primary/primary-one-class/lesson-notes",
       count: "0+ Notes",
     },
     {
       title: "Schemes of Work",
       description: "Structured learning plans and curricula",
       icon: BookOpen,
-      href: "/nursery/top-class/schemes-of-work",
+      href: "/primary/primary-one-class/schemes-of-work",
       count: "0+ Schemes",
     },
     {
       title: "Past Papers",
       description: "Previous examination and assessment papers",
       icon: Search,
-      href: "/nursery/top-class/past-papers",
+      href: "/primary/primary-one-class/past-papers",
       count: "0+ Papers",
     },
     {
       title: "Holiday Packages",
       description: "Vacation learning and activity materials",
       icon: Download,
-      href: "/nursery/top-class/holiday-packages",
+      href: "/primary/primary-one-class/holiday-packages",
       count: "0+ Packages",
     },
   ]
@@ -49,8 +49,8 @@ export default function TopClassPage() {
             Home
           </Link>
           <span>/</span>
-          <Link href="/nursery" className="hover:text-primary">
-            Nursery
+          <Link href="/primary" className="hover:text-primary">
+            Primary
           </Link>
           <span>/</span>
           <span className="text-foreground">Top Class</span>
@@ -58,9 +58,9 @@ export default function TopClassPage() {
 
         {/* Page Header */}
         <div className="text-center mb-12">
-          <h1 className="font-playfair font-bold text-4xl md:text-5xl mb-4 text-balance">Top Class Resources</h1>
+          <h1 className="font-playfair font-bold text-4xl md:text-5xl mb-4 text-balance">Primary One Class Resources</h1>
           <p className="text-lg text-muted-foreground text-pretty max-w-2xl mx-auto">
-            Access all learning materials for Top Class including lesson notes, schemes of work, past papers, and
+            Access all learning materials for Primary One Class including lesson notes, schemes of work, past papers, and
             holiday packages.
           </p>
         </div>
